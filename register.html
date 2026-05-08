@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Questify Register</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="login-container">
+
+<div class="card neon-card login-card">
+<h1 class="logo-title">Questify</h1>
+<h2>Create Account</h2>
+
+<input type="text" placeholder="Username">
+
+<input type="email" placeholder="Email">
+
+<div class="password-box">
+<input type="password" id="password" placeholder="Password">
+<span class="toggle-password" onclick="togglePassword()">👁</span>
+</div>
+
+<div class="login-actions">
+
+<select>
+<option>Select Role</option>
+<option>Student</option>
+<option>Instructor</option>
+</select>
+
+<button class="start-btn">Register</button>
+
+</div>
+
+<p class="register-text">
+Already have an account?
+<span onclick="window.location.href='login.html'">Login</span>
+</p>
+
+</div>
+
+</div>
+<footer class="site-footer">
+<p>© 2026 Questify | Developed for Online Examination System</p>
+</footer>
+<script src="js/register.js"></script>
+<script src="js/showpassword/app.js"></script>
+
+
+</body>
+</html>

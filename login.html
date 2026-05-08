@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="login-container">
+
+<div class="card neon-card login-card">
+
+<h1 class="logo-title">Questify</h1>
+<h2>Login</h2>
+
+<input type="email" placeholder="Email">
+
+<div class="password-box">
+    <input type="password" id="password" placeholder="Password">
+    <span class="toggle-password" onclick="togglePassword()">👁</span>
+</div>
+
+<div class="login-actions">
+
+<select>
+<option>Student</option>
+<option>Instructor</option>
+</select>
+
+<button class="start-btn">Login</button>
+
+</div>
+
+<div class="divider">
+<span>OR</span>
+</div>
+
+<button class="google-btn">
+<img src="https://developers.google.com/identity/images/g-logo.png">
+Login with Google
+</button>
+
+<p class="register-text">
+Don't have an account?
+<span onclick="window.location.href='register.html'">Register</span>
+</p>
+
+</div>
+
+</div>
+<footer class="site-footer">
+<p>© 2026 Questify | Developed for Online Examination System</p>
+</footer>
+<script src="js/login.js"></script>
+<script src="js/showpassword.js"></script>
+</body>
+</html>

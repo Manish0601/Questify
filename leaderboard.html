@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Leaderboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+.back-btn{
+position:absolute;
+top:20px;
+right:20px;
+background:#ff00aa;
+color:white;
+border:none;
+padding:8px 16px;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.leaderboard-container{
+position:relative;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="leaderboard-container">
+
+<button class="back-btn" onclick="history.back()">← Back</button>
+
+<h1 class="leader-title">LEADERBOARD</h1>
+
+<table class="leaderboard">
+
+<tr class="head">
+
+<th>#</th>
+<th>Name</th>
+<th>Score</th>
+
+</tr>
+
+<tr>
+
+<td class="rank gold">1</td>
+
+<td class="player">Manish</td>
+
+<td>320</td>
+
+</tr>
+
+<tr>
+
+<td class="rank silver">2</td>
+
+<td class="player">Dheeraj</td>
+
+<td>270</td>
+
+</tr>
+
+<tr>
+
+<td class="rank bronze">3</td>
+
+<td class="player">Milan</td>
+
+<td>260</td>
+
+</tr>
+
+<tr>
+
+<td class="rank">4</td>
+
+<td class="player">Gourav</td>
+
+<td>245</td>
+
+</tr>
+
+<tr>
+
+<td class="rank">5</td>
+
+<td class="player">Rahul</td>
+
+<td>230</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<script>
+
+function logout(){
+window.location.href="index.html"
+}
+
+</script>
+<footer class="site-footer">
+<p>© 2026 Questify | Developed for Online Examination System</p>
+</footer>
+</body>
+</html>
